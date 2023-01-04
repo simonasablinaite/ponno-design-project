@@ -8,9 +8,11 @@
   text-decoration: none;
   border: none;
   user-select: none;
+  transition: 0.5s;
 }
 
 .btn:hover {
   background-color: #fff;
   color: #000;
+  transition: 0.3s;
 }
