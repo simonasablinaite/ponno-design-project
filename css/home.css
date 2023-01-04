@@ -2,8 +2,10 @@
 @import "./init/reset.css";
 @import "./init/variables.css";
 @import "./init/layout.css";
+@import "./init/base.css";
 
 /* components */
+@import "./components/backgrounds.css";
 @import "./components/form.css";
 @import "./components/button.css";
 
