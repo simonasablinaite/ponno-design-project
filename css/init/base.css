@@ -5,3 +5,29 @@
 .bg-light-grey {
   background-color: var(--bg-color-light-grey);
 }
+
+.headline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  color: var(--main-text-color);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.headline-paragraph {
+  font-family: "Montserrat", sans-serif;
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.paragraph {
+  font-family: "Montserrat", sans-serif;
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: left;
+}

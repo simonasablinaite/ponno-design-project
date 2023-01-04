@@ -7,4 +7,10 @@
   cursor: pointer;
   text-decoration: none;
   border: none;
+  user-select: none;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
 }
