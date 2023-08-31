@@ -1,0 +1,34 @@
+.mobile-container {
+  max-width: 576px;
+  margin: auto;
+  background-color: black;
+  padding: 0 40px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+.topnav #links {
+  display: none;
+}
+
+.topnav a {
+  display: block;
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav .burger-menu svg {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  width: 30px;
+  fill: #fff;
+  cursor: pointer;
+}
