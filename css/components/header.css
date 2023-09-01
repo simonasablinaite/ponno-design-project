@@ -34,15 +34,22 @@
 .row.header.header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  /* background-color: black; */
 }
 .burger-menu {
-  width: 50px;
+  width: 45px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
   fill: white;
 }
 
 #links {
   display: none;
+}
+.topnav {
+  position: relative;
 }
 
 .topnav a {
