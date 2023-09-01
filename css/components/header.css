@@ -1,34 +1,99 @@
-.mobile-container {
-  max-width: 576px;
-  margin: auto;
-  background-color: black;
-  padding: 0 40px;
-}
+.navigation a {
+  display: none;
+  color: white;
+  padding: 0 14px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  height: 50px;
+  color: #fff;
 
-.topnav {
-  overflow: hidden;
-  background-color: black;
+  overflow-x: hidden;
   position: relative;
+  transition: 0.25s ease all;
+  margin-top: 20px;
+  text-decoration: none;
+  line-height: 45px;
 }
 
-.topnav #links {
+.navigation a::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: -100%;
+  height: 5px;
+  width: 100%;
+  background: #dd0034;
+  transition: 0.5s ease all;
+}
+
+.navigation a:hover::after {
+  left: 0;
+}
+.row.header.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.burger-menu {
+  width: 50px;
+  fill: white;
+}
+
+#links {
   display: none;
 }
 
 .topnav a {
   display: block;
   color: white;
-  padding: 16px 16px;
+  padding: 0 16px;
   text-decoration: none;
   font-size: 15px;
+  font-weight: 600;
+  height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  overflow-x: hidden;
+  position: relative;
+  transition: 0.25s ease all;
+  margin-top: 20px;
+  text-decoration: none;
+  line-height: 45px;
 }
 
-.topnav .burger-menu svg {
-  display: block;
+.topnav a::after {
+  content: " ";
   position: absolute;
-  right: 10px;
-  top: 20px;
-  width: 30px;
-  fill: #fff;
-  cursor: pointer;
+  display: block;
+  bottom: 0;
+  left: -100%;
+  height: 5px;
+  width: 100%;
+  background: #dd0034;
+  transition: 0.5s ease all;
+}
+
+.topnav a:hover::after {
+  left: 0;
+}
+
+@media (min-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .navigation a {
+    display: inline-block;
+    font-size: 12px;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) {
+  .navigation a {
+    font-size: 18px;
+  }
 }
