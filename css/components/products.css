@@ -1,0 +1,34 @@
+.products-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-cards svg {
+  width: 50px;
+  fill: #ed0461;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.products-cards > .products-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.products-description > p {
+  margin: 10px 0;
+}
+
+.products-cards > .cards-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+  color: white;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
