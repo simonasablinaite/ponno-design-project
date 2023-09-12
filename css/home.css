@@ -11,6 +11,7 @@
 @import "./components/header.css";
 @import "./components/features.css";
 @import "./components/products.css";
+@import "./components/stacks-up.css";
 
 /* 3rd-party */
 @import "./3rd-party/font-awesome.min.css";
