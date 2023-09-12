@@ -21,7 +21,7 @@
   font-size: 45px;
   text-transform: capitalize;
   color: var(--main-text-color);
-  margin: 40px 0;
+  margin: 40px 0 20px 0;
   font-weight: bold;
   text-align: center;
 }
