@@ -9,6 +9,7 @@
 @import "./components/form.css";
 @import "./components/button.css";
 @import "./components/header.css";
+@import "./components/features.css";
 
 /* 3rd-party */
 @import "./3rd-party/font-awesome.min.css";
