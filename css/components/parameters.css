@@ -1,0 +1,18 @@
+.parameters-wrapper {
+  margin: 20px 0;
+}
+
+.parameters {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.parameters span {
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+.parameters p {
+  font-size: 14px;
+  text-transform: capitalize;
+}

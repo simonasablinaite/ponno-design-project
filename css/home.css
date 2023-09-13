@@ -13,6 +13,7 @@
 @import "./components/products.css";
 @import "./components/stacks-up.css";
 @import "./components/dna.css";
+@import "./components/parameters.css";
 
 /* 3rd-party */
 @import "./3rd-party/font-awesome.min.css";
