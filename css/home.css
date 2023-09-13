@@ -12,6 +12,7 @@
 @import "./components/features.css";
 @import "./components/products.css";
 @import "./components/stacks-up.css";
+@import "./components/dna.css";
 
 /* 3rd-party */
 @import "./3rd-party/font-awesome.min.css";
@@ -32,6 +33,9 @@
 /* Stacks-up end */
 
 /* Design start */
+.paragraph {
+  margin-bottom: 30px;
+}
 /* Design end */
 
 /* Parametres start */

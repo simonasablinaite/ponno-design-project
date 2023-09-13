@@ -1,0 +1,16 @@
+.video-wrapper {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.video {
+  color: white;
+  text-decoration: none;
+  background-color: var(--main-color-pink);
+  border-radius: 50%;
+  padding: 20px 15px;
+  position: relative;
+  bottom: -175px;
+  right: -10px;
+}
