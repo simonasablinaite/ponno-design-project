@@ -18,10 +18,10 @@
 
 .headline {
   font-family: "Montserrat", sans-serif;
-  font-size: 60px;
+  font-size: 45px;
   text-transform: capitalize;
   color: var(--main-text-color);
-  margin-bottom: 20px;
+  margin: 40px 0 20px 0;
   font-weight: bold;
   text-align: center;
 }

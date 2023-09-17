@@ -38,19 +38,25 @@
 .container-fluid {
   display: inline-block;
   width: 100%;
-  padding: var(--container-padding) 10px;
+  /* padding: var(--container-padding) 10px; */
 }
 .container > .row,
 .container-fluid > .row {
   display: inline-block;
   width: 100%;
-  margin: 30px 0;
+  margin-bottom: 30px;
 }
 .row > [class*="col-"] {
   float: left;
   margin-left: var(--half-gap);
   margin-right: var(--half-gap);
   text-align: center;
+}
+
+.img-size {
+  width: 250px;
+  height: 300px;
+  margin-bottom: 20px;
 }
 
 .row > .col-1 {
