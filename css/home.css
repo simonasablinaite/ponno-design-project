@@ -14,6 +14,7 @@
 @import "./components/stacks-up.css";
 @import "./components/dna.css";
 @import "./components/parameters.css";
+@import "./components/accordion.css";
 
 /* 3rd-party */
 @import "./3rd-party/font-awesome.min.css";
