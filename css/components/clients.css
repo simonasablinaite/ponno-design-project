@@ -1,0 +1,42 @@
+.client-wrapper {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  overflow: hidden;
+}
+
+.client {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  color: white;
+  overflow: hidden;
+}
+
+.client img {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.client .client-title h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.client .client-title span {
+  font-size: 12px;
+}
+
+.client-description p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.swipe-wrapper .swipe {
+  width: 20px;
+  color: var(--main-color-pink);
+  background-color: var(--main-color-pink);
+}
